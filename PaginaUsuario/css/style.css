@@ -1,0 +1,40 @@
+.imagen-ul-config{
+    height: 20px;
+}
+#ul-config{
+    list-style-type: none;
+    text-decoration: none;
+    width: 250px;
+    background-color: rgba(68, 66, 66, 0.6);
+    border-radius: 20px;
+    padding-left: 0px;
+    text-align: -webkit-center;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.a-config{
+    text-decoration: none;
+    color: white;
+    
+}
+.a-config:hover{
+    color: rgb(20, 20, 26);
+    text-decoration-line: none;
+}
+.li-config{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+.h6-config{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.div-config{
+    background-color: rgba(68, 66, 66, 0.6);
+    margin-top: 25px;
+    margin-left: 20px;
+}
