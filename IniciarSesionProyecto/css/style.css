@@ -1,0 +1,41 @@
+#form-config{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#imagen-nav-config{
+    margin: auto;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#config-h6{
+    padding-top: 5px;
+}
+
+.table-config{
+    margin: auto;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.imput-text-config{
+    margin-bottom: 8px;
+    width: 337.99174px;
+}
+#button-config{
+    margin-right: 147px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 14px;
+    padding-left: 14px;
+    background-color: aliceblue;
+    color: #007bff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#button-config:hover{
+    background-color: rgb(73, 78, 82);
+    color: aliceblue;
+}
