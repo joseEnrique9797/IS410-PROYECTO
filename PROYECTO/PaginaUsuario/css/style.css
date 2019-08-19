@@ -1,0 +1,101 @@
+.imagen-ul-config{
+    height: 20px;
+}
+#imagen-nav-config{
+    margin: auto;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.g-light{
+    background-color: rgba(68, 66, 66, 0.6) !important;
+}
+#ul-config{
+    list-style-type: none;
+    text-decoration: none;
+    width: 250px;
+    background-color: rgba(68, 66, 66, 0.6);
+    border-radius: 20px;
+    padding-left: 0px;
+    text-align: -webkit-center;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.a-config{
+    text-decoration: none;
+    color: white;
+    
+}
+.a-config:hover{
+    color: rgb(20, 20, 26);
+    text-decoration-line: none;
+}
+.li-config{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+.h6-config{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.div-config{
+    background-color: rgba(68, 66, 66, 0.6);
+    margin-top: 25px;
+    margin-left: 46px;
+}
+#div-productos-config{
+    background-color: rgb(46, 43, 43);
+    color: white;
+}
+#imagen-config{
+    width: 280px;
+    height:250px;
+}
+
+#a-desplegable-config{
+    color: white;
+}
+
+.table-config{
+    margin: auto;
+}
+#config-footer{
+    background-color: rgb(73, 78, 82);
+    height: 130px;
+    margin-top: 18px;
+}
+.h6-footer{
+    text-align: center;
+    padding-top: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: small;
+    
+}
+.h6-footer1{
+    text-align: center;
+    
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: small;
+}
+#guardar-a:hover{
+    text-decoration-line: none;
+}
+#guardar-div{
+    text-align: center;
+    margin-top: 7px;
+}
+.tr-password{
+    margin-top: 10px;
+}
+.input-modal{
+    margin-top: 10px;
+}
+#centrar-imagen-nav{
+    margin: auto;
+}

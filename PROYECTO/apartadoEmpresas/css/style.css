@@ -1,0 +1,58 @@
+
+
+.bg-light{
+    background-color: rgb(73, 78, 82) !important;
+}
+
+#image-nav{
+    height: 80px;
+    margin: auto;
+}
+
+#h6-config{
+	margin: auto;
+	padding-top: 19px;
+    padding-bottom: 33px;
+}
+
+.imput-text-config{
+    margin-bottom: 8px;
+    width: 337.99174px;
+}
+#button-config{
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 14px;
+    padding-left: 14px;
+    background-color: aliceblue;
+    color: #007bff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+#button-config:hover{
+	background-color: rgb(35, 116, 182);
+    color: aliceblue;
+    text-decoration-line: none;
+}
+.table-config{
+    margin: auto;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+#form-config{
+    text-align: center;
+	
+	background-color:rgb(222, 228, 233,0.60);
+	width: 800px;
+	height: 490px;
+	margin: auto;
+	margin-top: 70px;
+    
+}
+
+#centrar-imagen-nav{
+    margin: auto;
+}

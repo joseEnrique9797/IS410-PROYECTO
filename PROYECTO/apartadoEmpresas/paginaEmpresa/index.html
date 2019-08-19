@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+</head>
+<body>
+        <header>
+            <nav class="navbar navbar-light bg-light">
+                <a id="imagen-centro-nav" href="../../index.html"><img id="imagen-nav-config" src="img/logo3.png" alt=""></a>
+            </nav>
+        </header>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12" id="container12-config">
+                <div>
+                    <h4 id="h6-config">
+                        Administre sus productos en venta y establezca nuevas ofertas, !todo de manera intuitiva y rapida¡
+                    </h4>
+                </div>
+                <div class="btn-group" role="group" >
+                    <button id="Left" value="left" type="button" class="btn btn-secondary">Configura tu empresa</button>
+                    <button id="Middle" value="middle" type="button" class="btn btn-secondary">Administra tus productos</button>
+                    <button id="Right" type="button" class="btn btn-secondary">Estadisticas</button>
+                </div>
+                <div id="contenido">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+
+    </div>
+    <!--ventana modal "Agregar nuevas sucursales" -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document" >
+          <div class="modal-content">
+            <div class="modal-body">
+                <div>
+                   
+                    <table id="table-modal">
+                        <tr>
+                            <th>
+                                <h6 class="h6-modal">Latitud</h6>
+                            </th>
+                            <th>
+                                <h6 class="h6-modal">Longitud</h6>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <h6 class="h6-modal">Seleccionar hubicacion</h6>
+                            </th>
+                            <th>
+                                <select name="" id="">
+                                    <option  disabled selected >Seleccione una opcion</option>
+                                </select>
+                            </th>
+                            
+                        </tr>
+                        
+                    </table>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <!--ventana modal "M.nombre publico" -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog" role="document" >
+          <div class="modal-content">
+            <div class="modal-body">
+                <div>
+                    <table>
+                        <tr>
+                            <th><h6 class="h6-modal">El nombre actual es: </h6></th>
+                        </tr>
+                        <tr>
+                            <th><h6 class="h6-modal">Ingrese el nuevo nombre: </h6>
+                            </th><th><input type="text"></th>
+                            
+                        </tr>
+                    </table>
+                    <div id="guardar-modal-config">
+                        <a id="a" href="">Guardar</a>
+                    </div>
+                        
+                    
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!--ventana modal "cambiar metodos de pago" -->
+    <div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+        <div class="modal-dialog" role="document" >
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div id="pagos-config">
+                        <h6>Seleccione los metodos de pago que desea permitir</h6>
+                        <table class="table-modal">
+                            <tr>
+                                <th>Visa</th><th><img class="imagenPagos" src="img/logo-VISA.png" alt=""></th><th><input type="checkbox""></th>
+                            </tr>    
+                            <tr>
+                                <th>Mastercard</th><th><img class="imagenPagos" src="img/mastercard.jpg" alt=""></th><th><input type="checkbox""></th>
+                            </tr>    
+                        </table>
+                        <button type="submit">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+</body>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/controlador.js"></script>
+</html>         
+

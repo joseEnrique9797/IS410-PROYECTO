@@ -1,0 +1,80 @@
+#imagen-nav-config{
+    margin: auto;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+#container12-config{
+    text-align: center;
+    margin-top: 29px;
+}
+
+#h6-config{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.btn-secondary{
+    width: 280px !important;
+}
+#contenido{
+    margin-top: 30px;
+}
+#img-config{
+    height: 39px;
+}
+#table-configuracion{
+    margin: auto;
+    margin-top: 39px;
+    border: black 1px solid;
+    background-color: rgb(228, 219, 219);
+}
+#th-separador{
+    padding-right: 86px;
+}
+.th-general-espacios{
+    padding-bottom: 40px;
+    padding-top: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.modal-body{
+    background-color: #545b62 !important;
+}
+.h6-modal{
+    color: white;
+}
+
+.table-modal{
+    margin: auto;
+}
+#guardar-modal-config{
+    text-align: center;
+    margin-top: 5px;
+}
+#a:hover{
+    text-decoration-line: none;
+    color: aquamarine;
+}
+#productos-div-configuracion{
+    background-color: #6c757d;
+    text-align: center;
+    margin-left: 15px;
+}
+#administrar-producto-div{
+    margin: auto;
+}
+
+#imagen-centro-nav{
+    margin: auto;
+}
+#pagos-config{
+    text-align: center;
+}
+
+.imagenPagos{
+    width: 30px;
+}

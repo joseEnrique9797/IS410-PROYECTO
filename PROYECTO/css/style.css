@@ -1,0 +1,70 @@
+.bg-light { /* Configuracion para el fondo del nav-bar */
+    background-color: rgb(73, 78, 82) !important; 
+}
+.btn-outline-success {  /* Configuraciones para Boton de Busqueda */
+    color: black !important;
+    border-color: #28a745;
+    background-color: whitesmoke;
+}
+/* Configuracion Para textos del nav-bar */
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white !important;
+}
+/* Configuracion para el texto boton-desplegable(nav-bar)*/
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+/*Configuracion Para textos del nav-bar (aplicando hover)*/
+.navbar-light:hover   .navbar-nav:hover .active>.nav-link:hover, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link:hover {
+    color: #28a745 !important;
+}
+/* Configuracion para el texto boton-desplegable(nav-bar)hover*/
+.navbar-light .navbar-nav .nav-link:hover {
+    color:  #28a745!important;
+}
+#config-hr{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(15, 15, 15, 0.1);
+}
+
+/*Configuracion texto "Productos y servicios en descuento"*/
+#config-h6{
+    text-align: center;
+    font-weight:400 ;
+    margin-bottom: 17px;
+    padding-top: 23px;
+}
+/*Configuracion de tabla "Productos y servicios en descuento"*/
+#config-table{
+    margin: auto;
+}
+
+#config-footer{
+    background-color: rgb(73, 78, 82);
+    height: 150px;
+}
+
+#carouselExampleControls{
+    margin: auto;
+    width: 300px !important;
+}
+/*Clase para estilos de las letras del footer*/
+.config-letras-footer{
+    color: white;
+    font-family: monospace; 
+    font-size: 16px;
+}
+
+.config-letras-footer:hover{
+    color: #28a745;
+    font-family: monospace; 
+    font-size: 16px;
+}
+
+
+
+
+
+

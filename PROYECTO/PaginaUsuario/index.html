@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css">
+    
+    
+
+    <style>
+        #config-main{
+          background-color: rgb(233, 233, 243);
+        }
+    </style>
+
+</head>
+<body id="config-main">
+        <header>
+            <nav class="navbar navbar-light g-light ">
+                <a id="centrar-imagen-nav" href="../index.html"><img id="imagen-nav-config" src="img/logo3.png" alt=""></a>
+            </nav>
+        </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2">
+                    <ul id="ul-config">
+                        <li class="li-config"><img src="img/usuario.jpg" alt=""></li>
+                        <li class="li-config"><a data-toggle="modal" data-target="#exampleModal-usuario" class="a-config" href=""><img class="imagen-ul-config" src="img/descarga.jpg" alt=""> Cambiar contraseña</a></li>
+                        <li class="li-config"><a class="a-config" href=""><img class="imagen-ul-config" src="img/red.png" alt=""> Red</a></li>
+                        <li class="li-config">
+                            <a class="nav-link dropdown-toggle" id="a-desplegable-config" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="imagen-ul-config" src="img/favoritos.jpg" alt="">Tus favoritos
+                                
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Empresas</a>
+                                <a class="dropdown-item" href="#">Productos y ofertas</a>
+                                
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+                <div class="col-md-9">
+                    <div>
+                        <h6 class="h6-config">Actividad Reciente</h6>
+                    </div>
+                    <div class="div-config">
+                        <h6 class="h6-config">Productos y servicios adquiridos</h6> 
+                        <div class="container">
+                            <div class="row" id="producto">
+
+                            </div>
+                        </div>
+                    
+                    </div>
+                    <div class="div-config">
+                        <h6 class="h6-config">Ofertas de tus empresas favoritas</h6><br><br><br><br><br><br><br><br><br>
+                        
+                        <!-- Sintaxis para ventana modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document" >
+                                <div class="modal-content">
+                                <div class="modal-body">
+                                    <table>
+                                        <tr>
+                                            <th>Fecha de compra: </th>
+                                        </tr>
+                                        <tr>
+                                            <th>Empresa distribuidora:</th>     
+                                        </tr>
+                                        <tr></tr>
+                                    </table>
+                                </div>        
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                
+               
+
+            </div>
+        </div>
+    </div>    
+    
+    
+    
+     <!--ventana modal configuraciones usuario -->
+    <div class="modal fade" id="exampleModal-usuario" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document" >
+            <div class="modal-content">
+            <div class="modal-body">
+                <div>
+                    <div>
+                        <table>
+                            <tr class="tr-password">
+                                <th><h6>Ingrese su contraseña anterior  </h6></th><th><input class="input-modal" type="text"></th>
+                            </tr> 
+                            <tr class="tr-password">
+                                <th><h6>Ingrese su nueva contrasela  </h6></th><th><input class="input-modal" type="text"></th>
+                            </tr>
+                            <tr class="tr-password">
+                                <th><h6>confirme su contraseña  </h6></th><th><input class="input-modal" type="text"></th>
+                            </tr>
+                        </table>
+                        <div id="guardar-div">
+                            <a id="guardar-a" href="">Guardar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>    
+    
+    
+    
+    
+    
+    
+    <footer id="config-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <table>
+                        <tr><h6 class="h6-footer">@Quienes somos</h6></tr>
+                        <tr><center><img style="width:40px;" src="img/logo3.png" alt=""></center></tr>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <table>
+                        <tr><h6 style="margin-top: 21px;" class="h6-footer1">Terminos de privacidad</h6></tr>
+                        <tr><h6 class="h6-footer1">Guia de usuario</h6></tr>
+                        <h6 class="h6-footer1">Compra y venta de servicios R.A</h6>
+                    </table>
+                </div>
+                <div class="col-md-4">
+                    <h6 class="h6-footer">Empresas A.R</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+                
+            
+                
+            
+            
+    
+    <script src="js/jquery-3.3.1.min.js"></script>   
+    <script src="js/controlador.js"></script> 
+    <script src="../js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    
+    
+</body>
+</html>
