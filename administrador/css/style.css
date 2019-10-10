@@ -1,0 +1,45 @@
+#h6-config{
+    font-size: larger;
+}
+#ul-config{
+    list-style-type: none;
+    text-decoration: none;
+    width: 250px;
+    background-color: rgba(32, 61, 224, 0.6);
+    border-radius: 20px;
+    padding-left: 0px;
+    text-align: -webkit-center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+}
+
+.center-div{
+    text-align: center;
+}
+
+.button-config{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: larger;
+}
+.button-config:hover{
+    color: black ;
+    text-decoration-line: none;
+}
+
+.li-config{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contenido{
+    margin-top: 24px;
+    margin-right: 39px;
+    margin-left: 19px;
+    margin-bottom: 116px;
+}
+
+.color-text{
+    color: white;
+}
